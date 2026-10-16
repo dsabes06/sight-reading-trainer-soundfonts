@@ -27,7 +27,7 @@ The repository may contain additional FluidR3_GM instruments that are not curren
 - `FluidR3_GM/` - original retained pre-rendered FluidR3_GM assets.
 - `distribution/` - generated app-facing per-note audio assets. This directory will allow Sight Reading Trainer to download only the pitches it currently requires while retaining the complete source library.
 - `manifest.json` - app-facing catalog and version metadata. Added after the per-note distribution files are generated and verified.
-- `LICENSES/` - retained license notices.
+- `/` - retained license notices.
 
 The original FluidR3_GM files should not be destructively reorganized merely to match the mobile application's current pitch range.
 
