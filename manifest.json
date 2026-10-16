@@ -1,0 +1,1289 @@
+{
+  "format": "sight-reading-trainer-instrument-catalog",
+  "formatVersion": 1,
+  "catalogVersion": 1,
+  "assetVersion": 1,
+  "repository": "https://github.com/dsabes06/sight-reading-trainer-soundfonts",
+  "rawBaseUrl": "https://raw.githubusercontent.com/dsabes06/sight-reading-trainer-soundfonts/main",
+  "distribution": {
+    "directory": "distribution",
+    "audioFormat": "mp3",
+    "instrumentCountInSource": 128,
+    "noteCountPerInstrument": 88,
+    "availableRange": {
+      "lowest": "A0",
+      "highest": "C8"
+    },
+    "currentAppRequiredRange": {
+      "lowest": "C2",
+      "highest": "C6"
+    },
+    "noteSpelling": "flats",
+    "accidentalFilenameExamples": {
+      "Db4": "Db4.mp3",
+      "Eb4": "Eb4.mp3",
+      "Gb4": "Gb4.mp3",
+      "Ab4": "Ab4.mp3",
+      "Bb4": "Bb4.mp3"
+    }
+  },
+  "licensing": {
+    "soundfont": "FluidR3_GM",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "noticeFile": "LICENSE-NOTICE.md",
+    "upstreamPackagingNoticeFile": "midi-js-soundfonts-MIT.txt",
+    "upstreamRepository": "https://github.com/gleitz/midi-js-soundfonts"
+  },
+  "catalog": {
+    "instrumentCount": 48,
+    "bundledCount": 8,
+    "downloadableCount": 40,
+    "defaultInstrumentId": "acoustic_grand_piano",
+    "allCurrentlyFree": true
+  },
+  "families": [
+    {
+      "id": "piano_keys",
+      "displayName": "Piano / Keys",
+      "sortOrder": 10
+    },
+    {
+      "id": "organ",
+      "displayName": "Organ",
+      "sortOrder": 20
+    },
+    {
+      "id": "guitar",
+      "displayName": "Guitar",
+      "sortOrder": 30
+    },
+    {
+      "id": "bass",
+      "displayName": "Bass",
+      "sortOrder": 40
+    },
+    {
+      "id": "strings",
+      "displayName": "Strings",
+      "sortOrder": 50
+    },
+    {
+      "id": "brass",
+      "displayName": "Brass",
+      "sortOrder": 60
+    },
+    {
+      "id": "woodwind",
+      "displayName": "Woodwinds",
+      "sortOrder": 70
+    },
+    {
+      "id": "mallet_percussion",
+      "displayName": "Mallet / Percussion",
+      "sortOrder": 80
+    }
+  ],
+  "instruments": [
+    {
+      "id": "acoustic_grand_piano",
+      "displayName": "Acoustic Grand Piano",
+      "family": "piano_keys",
+      "sortOrder": 10,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/acoustic_grand_piano-mp3.js",
+        "distributionDirectory": "distribution/acoustic_grand_piano"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "bright_acoustic_piano",
+      "displayName": "Bright Acoustic Piano",
+      "family": "piano_keys",
+      "sortOrder": 20,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/bright_acoustic_piano-mp3.js",
+        "distributionDirectory": "distribution/bright_acoustic_piano"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_grand_piano",
+      "displayName": "Electric Grand Piano",
+      "family": "piano_keys",
+      "sortOrder": 30,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_grand_piano-mp3.js",
+        "distributionDirectory": "distribution/electric_grand_piano"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_piano_1",
+      "displayName": "Electric Piano 1",
+      "family": "piano_keys",
+      "sortOrder": 40,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_piano_1-mp3.js",
+        "distributionDirectory": "distribution/electric_piano_1"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_piano_2",
+      "displayName": "Electric Piano 2",
+      "family": "piano_keys",
+      "sortOrder": 50,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_piano_2-mp3.js",
+        "distributionDirectory": "distribution/electric_piano_2"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "harpsichord",
+      "displayName": "Harpsichord",
+      "family": "piano_keys",
+      "sortOrder": 60,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/harpsichord-mp3.js",
+        "distributionDirectory": "distribution/harpsichord"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "drawbar_organ",
+      "displayName": "Drawbar Organ",
+      "family": "organ",
+      "sortOrder": 70,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/drawbar_organ-mp3.js",
+        "distributionDirectory": "distribution/drawbar_organ"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "percussive_organ",
+      "displayName": "Percussive Organ",
+      "family": "organ",
+      "sortOrder": 80,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/percussive_organ-mp3.js",
+        "distributionDirectory": "distribution/percussive_organ"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "rock_organ",
+      "displayName": "Rock Organ",
+      "family": "organ",
+      "sortOrder": 90,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/rock_organ-mp3.js",
+        "distributionDirectory": "distribution/rock_organ"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "church_organ",
+      "displayName": "Church Organ",
+      "family": "organ",
+      "sortOrder": 100,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/church_organ-mp3.js",
+        "distributionDirectory": "distribution/church_organ"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "acoustic_guitar_nylon",
+      "displayName": "Acoustic Guitar (Nylon)",
+      "family": "guitar",
+      "sortOrder": 110,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/acoustic_guitar_nylon-mp3.js",
+        "distributionDirectory": "distribution/acoustic_guitar_nylon"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "acoustic_guitar_steel",
+      "displayName": "Acoustic Guitar (Steel)",
+      "family": "guitar",
+      "sortOrder": 120,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/acoustic_guitar_steel-mp3.js",
+        "distributionDirectory": "distribution/acoustic_guitar_steel"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_guitar_jazz",
+      "displayName": "Electric Guitar (Jazz)",
+      "family": "guitar",
+      "sortOrder": 130,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_guitar_jazz-mp3.js",
+        "distributionDirectory": "distribution/electric_guitar_jazz"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_guitar_clean",
+      "displayName": "Electric Guitar (Clean)",
+      "family": "guitar",
+      "sortOrder": 140,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_guitar_clean-mp3.js",
+        "distributionDirectory": "distribution/electric_guitar_clean"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_guitar_muted",
+      "displayName": "Electric Guitar (Muted)",
+      "family": "guitar",
+      "sortOrder": 150,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_guitar_muted-mp3.js",
+        "distributionDirectory": "distribution/electric_guitar_muted"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "overdriven_guitar",
+      "displayName": "Overdriven Guitar",
+      "family": "guitar",
+      "sortOrder": 160,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/overdriven_guitar-mp3.js",
+        "distributionDirectory": "distribution/overdriven_guitar"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "acoustic_bass",
+      "displayName": "Acoustic Bass",
+      "family": "bass",
+      "sortOrder": 170,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/acoustic_bass-mp3.js",
+        "distributionDirectory": "distribution/acoustic_bass"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_bass_finger",
+      "displayName": "Electric Bass (Finger)",
+      "family": "bass",
+      "sortOrder": 180,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_bass_finger-mp3.js",
+        "distributionDirectory": "distribution/electric_bass_finger"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "electric_bass_pick",
+      "displayName": "Electric Bass (Pick)",
+      "family": "bass",
+      "sortOrder": 190,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/electric_bass_pick-mp3.js",
+        "distributionDirectory": "distribution/electric_bass_pick"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "fretless_bass",
+      "displayName": "Fretless Bass",
+      "family": "bass",
+      "sortOrder": 200,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/fretless_bass-mp3.js",
+        "distributionDirectory": "distribution/fretless_bass"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "violin",
+      "displayName": "Violin",
+      "family": "strings",
+      "sortOrder": 210,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/violin-mp3.js",
+        "distributionDirectory": "distribution/violin"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "viola",
+      "displayName": "Viola",
+      "family": "strings",
+      "sortOrder": 220,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/viola-mp3.js",
+        "distributionDirectory": "distribution/viola"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "cello",
+      "displayName": "Cello",
+      "family": "strings",
+      "sortOrder": 230,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/cello-mp3.js",
+        "distributionDirectory": "distribution/cello"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "contrabass",
+      "displayName": "Contrabass",
+      "family": "strings",
+      "sortOrder": 240,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/contrabass-mp3.js",
+        "distributionDirectory": "distribution/contrabass"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "tremolo_strings",
+      "displayName": "Tremolo Strings",
+      "family": "strings",
+      "sortOrder": 250,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/tremolo_strings-mp3.js",
+        "distributionDirectory": "distribution/tremolo_strings"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "pizzicato_strings",
+      "displayName": "Pizzicato Strings",
+      "family": "strings",
+      "sortOrder": 260,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/pizzicato_strings-mp3.js",
+        "distributionDirectory": "distribution/pizzicato_strings"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "string_ensemble_1",
+      "displayName": "String Ensemble 1",
+      "family": "strings",
+      "sortOrder": 270,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/string_ensemble_1-mp3.js",
+        "distributionDirectory": "distribution/string_ensemble_1"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "trumpet",
+      "displayName": "Trumpet",
+      "family": "brass",
+      "sortOrder": 280,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/trumpet-mp3.js",
+        "distributionDirectory": "distribution/trumpet"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "trombone",
+      "displayName": "Trombone",
+      "family": "brass",
+      "sortOrder": 290,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/trombone-mp3.js",
+        "distributionDirectory": "distribution/trombone"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "tuba",
+      "displayName": "Tuba",
+      "family": "brass",
+      "sortOrder": 300,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/tuba-mp3.js",
+        "distributionDirectory": "distribution/tuba"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "french_horn",
+      "displayName": "French Horn",
+      "family": "brass",
+      "sortOrder": 310,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/french_horn-mp3.js",
+        "distributionDirectory": "distribution/french_horn"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "brass_section",
+      "displayName": "Brass Section",
+      "family": "brass",
+      "sortOrder": 320,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/brass_section-mp3.js",
+        "distributionDirectory": "distribution/brass_section"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "soprano_sax",
+      "displayName": "Soprano Sax",
+      "family": "woodwind",
+      "sortOrder": 330,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/soprano_sax-mp3.js",
+        "distributionDirectory": "distribution/soprano_sax"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "alto_sax",
+      "displayName": "Alto Sax",
+      "family": "woodwind",
+      "sortOrder": 340,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/alto_sax-mp3.js",
+        "distributionDirectory": "distribution/alto_sax"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "tenor_sax",
+      "displayName": "Tenor Sax",
+      "family": "woodwind",
+      "sortOrder": 350,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/tenor_sax-mp3.js",
+        "distributionDirectory": "distribution/tenor_sax"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "oboe",
+      "displayName": "Oboe",
+      "family": "woodwind",
+      "sortOrder": 360,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/oboe-mp3.js",
+        "distributionDirectory": "distribution/oboe"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "english_horn",
+      "displayName": "English Horn",
+      "family": "woodwind",
+      "sortOrder": 370,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/english_horn-mp3.js",
+        "distributionDirectory": "distribution/english_horn"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "bassoon",
+      "displayName": "Bassoon",
+      "family": "woodwind",
+      "sortOrder": 380,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/bassoon-mp3.js",
+        "distributionDirectory": "distribution/bassoon"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "clarinet",
+      "displayName": "Clarinet",
+      "family": "woodwind",
+      "sortOrder": 390,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/clarinet-mp3.js",
+        "distributionDirectory": "distribution/clarinet"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "piccolo",
+      "displayName": "Piccolo",
+      "family": "woodwind",
+      "sortOrder": 400,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/piccolo-mp3.js",
+        "distributionDirectory": "distribution/piccolo"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "flute",
+      "displayName": "Flute",
+      "family": "woodwind",
+      "sortOrder": 410,
+      "availableInApp": true,
+      "delivery": "bundled",
+      "downloadable": false,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/flute-mp3.js",
+        "distributionDirectory": "distribution/flute"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "recorder",
+      "displayName": "Recorder",
+      "family": "woodwind",
+      "sortOrder": 420,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/recorder-mp3.js",
+        "distributionDirectory": "distribution/recorder"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "celesta",
+      "displayName": "Celesta",
+      "family": "mallet_percussion",
+      "sortOrder": 430,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/celesta-mp3.js",
+        "distributionDirectory": "distribution/celesta"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "glockenspiel",
+      "displayName": "Glockenspiel",
+      "family": "mallet_percussion",
+      "sortOrder": 440,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/glockenspiel-mp3.js",
+        "distributionDirectory": "distribution/glockenspiel"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "music_box",
+      "displayName": "Music Box",
+      "family": "mallet_percussion",
+      "sortOrder": 450,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/music_box-mp3.js",
+        "distributionDirectory": "distribution/music_box"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "vibraphone",
+      "displayName": "Vibraphone",
+      "family": "mallet_percussion",
+      "sortOrder": 460,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/vibraphone-mp3.js",
+        "distributionDirectory": "distribution/vibraphone"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "marimba",
+      "displayName": "Marimba",
+      "family": "mallet_percussion",
+      "sortOrder": 470,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/marimba-mp3.js",
+        "distributionDirectory": "distribution/marimba"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    },
+    {
+      "id": "xylophone",
+      "displayName": "Xylophone",
+      "family": "mallet_percussion",
+      "sortOrder": 480,
+      "availableInApp": true,
+      "delivery": "download",
+      "downloadable": true,
+      "access": "free",
+      "source": {
+        "soundfont": "FluidR3_GM",
+        "sourceBundle": "FluidR3_GM/xylophone-mp3.js",
+        "distributionDirectory": "distribution/xylophone"
+      },
+      "audio": {
+        "format": "mp3",
+        "noteFilenameTemplate": "{note}.mp3",
+        "noteSpelling": "flats",
+        "availableRange": {
+          "lowest": "A0",
+          "highest": "C8",
+          "noteCount": 88
+        }
+      }
+    }
+  ]
+}
